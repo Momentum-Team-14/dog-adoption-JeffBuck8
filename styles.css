@@ -1,7 +1,7 @@
 header {
     background-color: #004175;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 2rem;
     margin: 0;
     font-weight: bold;
@@ -77,26 +77,63 @@ body {
 }
 
 .donate {
-    background-image: url(../dog-adoption-JeffBuck8/starter_files/images/donate.jpg);
-    width: 20rem;
+    background:  
+    linear-gradient(
+        rgb(166,169,240, 0.67), 
+        rgb(166,169,240, 0.67)
+    ), url(../dog-adoption-JeffBuck8/starter_files/images/donate.jpg);
+    width: 33%;
+    background-size: cover;
+    
+    
 }
 
 .volunteer {
-    background-image: url(../dog-adoption-JeffBuck8/starter_files/images/volunteer.jpg);
-    width: 20rem;
+    background:  
+    linear-gradient(
+        rgba(166,169,240, 0.67), 
+        rgba(166,169,240, 0.67)
+    ), url(../dog-adoption-JeffBuck8/starter_files/images/volunteer.jpg);
+    width: 33%;
+    background-size: cover;
 }
 
 .location {
-    background-image: url(../dog-adoption-JeffBuck8/starter_files/images/location.png);
-    width: 20rem;
-}
-
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
+    background:  
+    linear-gradient(
+        rgb(166,169,240, 0.67), 
+        rgb(166,169,240, 0.67)
+    ), url(../dog-adoption-JeffBuck8/starter_files/images/location.png);
+    width: 33%;
+    background-size: cover;
+    
+    
+    
     
 
+}
+
+footer {
+    display: flex;
+    margin: 0;
+    height: 15rem;
+    font-size: 2rem;
+    font-family: 'Oswald';
+    color: white;
+    width: 100%;
+    padding: 0;
+    
+    
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 
