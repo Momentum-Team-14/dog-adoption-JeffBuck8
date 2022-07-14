@@ -1,0 +1,102 @@
+header {
+    background-color: #004175;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin: 0;
+    font-weight: bold;
+    border-bottom: 2px solid #89DEEF;
+    font-family: 'Open sans';
+        
+}
+
+h1 {
+    padding: 0 1.8rem;
+    font-size: 1rem;
+    
+}
+
+h2 {
+    font-family: 'Oswald';
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+    width: 100%;
+    height: 1rem;
+    
+    
+}
+
+body {
+    margin: 0;
+    font-family: 'Open sans';
+}
+
+.alldogs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.form {
+    font-size: 0.7rem;
+    margin: 0.25rem;
+    padding: 0 1.65rem;
+}
+
+.doglist {
+    margin: 0;
+    padding: 0 0 0.25rem 0;
+    width: 100%;
+    height: 50%;
+
+}
+.doglist li {
+    padding: .1rem;
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    font-size: 0.42rem;
+    border-radius: 1rem;
+    background-color: #89DEEF;
+    
+
+}
+
+.dogprofile img {
+    width: 100%;
+}
+
+.dogprofile {
+    display: flex;
+    padding: 0 0.75rem;
+    flex-wrap: wrap;
+    width: 15rem;
+    
+
+}
+
+.donate {
+    background-image: url(../dog-adoption-JeffBuck8/starter_files/images/donate.jpg);
+    width: 20rem;
+}
+
+.volunteer {
+    background-image: url(../dog-adoption-JeffBuck8/starter_files/images/volunteer.jpg);
+    width: 20rem;
+}
+
+.location {
+    background-image: url(../dog-adoption-JeffBuck8/starter_files/images/location.png);
+    width: 20rem;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    
+
+}
+
+
